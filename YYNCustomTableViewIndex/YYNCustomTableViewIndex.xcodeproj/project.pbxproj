@@ -13,6 +13,8 @@
 		B84A6F921E7932A2002B7BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84A6F901E7932A2002B7BA1 /* Main.storyboard */; };
 		B84A6F941E7932A2002B7BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84A6F931E7932A2002B7BA1 /* Assets.xcassets */; };
 		B84A6F971E7932A2002B7BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84A6F951E7932A2002B7BA1 /* LaunchScreen.storyboard */; };
+		B84A6FA31E793306002B7BA1 /* YYNTableViewIndexItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B84A6FA01E793306002B7BA1 /* YYNTableViewIndexItemView.m */; };
+		B84A6FA41E793306002B7BA1 /* YYNTableViewIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = B84A6FA21E793306002B7BA1 /* YYNTableViewIndexView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B84A6F931E7932A2002B7BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B84A6F961E7932A2002B7BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B84A6F981E7932A2002B7BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84A6F9F1E793306002B7BA1 /* YYNTableViewIndexItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNTableViewIndexItemView.h; sourceTree = "<group>"; };
+		B84A6FA01E793306002B7BA1 /* YYNTableViewIndexItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNTableViewIndexItemView.m; sourceTree = "<group>"; };
+		B84A6FA11E793306002B7BA1 /* YYNTableViewIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNTableViewIndexView.h; sourceTree = "<group>"; };
+		B84A6FA21E793306002B7BA1 /* YYNTableViewIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNTableViewIndexView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		B84A6F861E7932A2002B7BA1 /* YYNCustomTableViewIndex */ = {
 			isa = PBXGroup;
 			children = (
+				B84A6F9E1E793306002B7BA1 /* CustomTableViewIndex */,
 				B84A6F8A1E7932A2002B7BA1 /* AppDelegate.h */,
 				B84A6F8B1E7932A2002B7BA1 /* AppDelegate.m */,
 				B84A6F8D1E7932A2002B7BA1 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				B84A6F881E7932A2002B7BA1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B84A6F9E1E793306002B7BA1 /* CustomTableViewIndex */ = {
+			isa = PBXGroup;
+			children = (
+				B84A6F9F1E793306002B7BA1 /* YYNTableViewIndexItemView.h */,
+				B84A6FA01E793306002B7BA1 /* YYNTableViewIndexItemView.m */,
+				B84A6FA11E793306002B7BA1 /* YYNTableViewIndexView.h */,
+				B84A6FA21E793306002B7BA1 /* YYNTableViewIndexView.m */,
+			);
+			path = CustomTableViewIndex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84A6FA41E793306002B7BA1 /* YYNTableViewIndexView.m in Sources */,
 				B84A6F8F1E7932A2002B7BA1 /* ViewController.m in Sources */,
 				B84A6F8C1E7932A2002B7BA1 /* AppDelegate.m in Sources */,
 				B84A6F891E7932A2002B7BA1 /* main.m in Sources */,
+				B84A6FA31E793306002B7BA1 /* YYNTableViewIndexItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
